@@ -1,5 +1,30 @@
-li {
-  color:#000000
-  font:Helvetica, sans-serif
-  font-weight:bold
+ol,ul {
+	list-style: none;
+}
+
+#mainMenu {
+  color:#000000;
+  font:Helvetica;
+  Font-family:sans-serif;
+  font-weight:bold;
+  Margin:10px;
+  Width:900px;
+}
+
+#mainMenu li {
+	display:block;
+	width:120px;
+	float:left;
+	margin-left:2px;
+	border:1px solid #fff;
+}
+
+#mainMenu a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+}
+
+#mainMenu a:hover {
+	color:#FFB612;
 }
