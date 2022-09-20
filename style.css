@@ -2,13 +2,14 @@ ol,ul {
 	list-style: none;
 }
 
-#mainMenu {
-  color:#000000;
+#mainMenu ul {
+  background-color:#000000;
   font:Helvetica;
   Font-family:sans-serif;
   font-weight:bold;
   Margin:10px;
   Width:900px;
+  Text-align:end;
 }
 
 #mainMenu li {
