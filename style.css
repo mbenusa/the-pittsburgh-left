@@ -1,31 +1,46 @@
-ol,ul {
-	list-style: none;
+body {
+      margin: 0;
+      padding: 0;
+      background: #fff;
 }
 
 #mainMenu ul {
-  background-color:#000000;
-  font:Helvetica;
-  Font-family:sans-serif;
-  font-weight:bold;
-  Margin:10px;
-  Width:900px;
-  Text-align:end;
+      list-style: none;
+      background: #000000;
+      text-align: center;
+      padding: 0;
+      margin: 0;
 }
 
 #mainMenu li {
-	display:block;
-	width:120px;
-	float:left;
-	margin-left:2px;
-	border:1px solid #fff;
+      font-family: 'Helvetica', sans-serif;
+      Font-weight: bold;
+      line-height: 40px;
+      height: 40px;
+      border-bottom: 1px solid #888;
 }
 
-#mainMenu a {
-	display:block;
-	padding:3px;
-	text-decoration:none;
+nav a {
+      text-decoration: none;
+      color: #fff;
+      transition: .3s background-color;
 }
 
-#mainMenu a:hover {
-	color:#FFB612;
+nav a:hover {
+      color: #FFB612;
 }
+
+@media screen and (min-width: 600px) {
+      #mainMenu li {
+       Float:right;
+       Padding: 10px;
+       Margin-right:15px;
+    }
+     #mainMenu ul {
+      overflow: auto;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+}
+
