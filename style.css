@@ -1,5 +1,5 @@
 body {
-      margin: 0;
+      Margin:0;
       padding: 0;
       background: #fff;
 }
@@ -42,5 +42,28 @@ nav a:hover {
       margin: 0 auto;
     }
 
+}
+
+.cards {
+	margin-left: 15%;
+	margin-right: 15%;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+	grid-gap: 20px;
+}
+
+.bigcard {
+	/* https://learncssgrid.com/#grid-container */
+}
+
+.smallcard {
+	display: grid;
+	grid-template-rows: max-content 200px 1fr;
+}
+
+.cardimg {
+	Object-fit:cover;
+	Width: 100%;
+	Height: 100%;
 }
 
