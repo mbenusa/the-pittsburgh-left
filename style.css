@@ -13,8 +13,9 @@ body {
 }
 
 #mainMenu li {
-      font-family: 'Helvetica', sans-serif;
+      font-family: 'Merriweather';
       Font-weight: bold;
+      Font-size: 22px;
       line-height: 40px;
       height: 40px;
       border-bottom: 1px solid #888;
