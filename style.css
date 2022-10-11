@@ -27,11 +27,7 @@ nav a {
       transition: .3s background-color;
 }
 
-nav a:hover {
-      color: #FFB612;
-}
-
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 900px) {
       #mainMenu li {
        Float:right;
        Padding: 10px;
@@ -43,13 +39,35 @@ nav a:hover {
       margin: 0 auto;
     }
 
+     .cards {
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 10px;
+	display: grid;
+	grid-template-columns: repeat(2, minmax(300px, 1fr));
+	grid-gap: 20px;
+     }
+
+}
+
+@media screen and (min-width: 600px) {
+    .cards {
+	content-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 10px;
+	display: grid;
+	grid-template-columns: repeat(1, minmax(300px, 1fr));
+	grid-gap: 20px;
+     }
 }
 
 .cards {
-	margin-left: 15%;
-	margin-right: 15%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 10px;
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+	grid-template-columns: repeat(3, minmax(300px, 1fr));
 	grid-gap: 20px;
 }
 
@@ -58,8 +76,12 @@ nav a:hover {
 }
 
 .smallcard {
-	display: grid;
-	grid-template-rows: max-content 200px 1fr;
+	display: inline-grid;
+	grid-template-rows: max-content 150px 1fr;
+}
+
+.smallcard h2 {
+	text-align: center;
 }
 
 .cardimg {
@@ -68,3 +90,17 @@ nav a:hover {
 	Height: 100%;
 }
 
+div a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FFB612;
+}
+
+article {
+	background-color: black;
+	margin: 25px;
+	padding: 10px;
+}
