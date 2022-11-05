@@ -109,3 +109,10 @@ article {
 img {
 	max-width:100%;
 }
+
+.page_margin {
+	margin-left:5%; 
+	margin-top:2%; 
+	margin-right:10%; 
+	margin-bottom:5%"
+}
